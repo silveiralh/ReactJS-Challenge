@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import './home.css';
+import {Link} from 'react-router-dom';
 
 // componentes
 import Tittle from '../../components/tittle';
 import Navbar from '../../components/navbar';
 import ProfileInfo from '../../components/profileInfo';
 import ProfilePicture from '../../components/profilePicture';
-
+// react icons
+import * as Fi from "react-icons/fi";
 
 function Home() {
     return (
@@ -18,7 +20,7 @@ function Home() {
                         <p className="text-md-left font-weight-bold">nickname</p>
                     </div>
                     <div className="col">
-                        <p className="text-md text-right pr-4">sair</p>
+                       <p className="text-md text-right pr-4"> <Link to="/" className="link" >sair  <Fi.FiLogOut className="logout"/></Link></p>
                     </div>
                 </div>
             </div>

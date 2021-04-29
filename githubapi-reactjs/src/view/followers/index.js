@@ -5,7 +5,8 @@ import './followers.css';
 import Tittle from '../../components/tittle';
 import Navbar from '../../components/navbar';
 import UserCard from '../../components/userCard';
-
+// react icons
+import * as Fi from "react-icons/fi";
 
 function Followers() {
     return (
@@ -13,7 +14,12 @@ function Followers() {
         {/* top section */}
             <div className="topBar">
                 <div className="pt-4 pb-4 ">
-                    <p className="text-md text-center font-weight-bold">10 seguidores</p>
+                    <div className="item-left pt-0 ">
+                            <p className="seta pl-0"><Fi.FiArrowLeft/></p>
+                    </div>
+                    <div className=" center">
+                        <p className="text-md text-center font-weight-bold">10 Seguidores</p>
+                    </div>
                 </div>
             </div>
         {/* followers section */}

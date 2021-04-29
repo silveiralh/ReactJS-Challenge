@@ -7,6 +7,10 @@
     background-color: #292929;
 }
 .topBar{
+    padding-left: 20px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
     background-color: #1F1F1F;
     width: 100%;
 }
@@ -38,4 +42,21 @@
 }
 .bio-content{
     padding: 20px;
+}
+
+.logout{
+    color:#CC042A;
+    margin-left: 6px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease-out; 
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #CC042A;
+    transition-duration: 0.5s;
 }

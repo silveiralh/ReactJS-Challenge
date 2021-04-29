@@ -1,3 +1,11 @@
 .end{
     height: 200px;
 }
+
+.seta{
+    float:left;
+}
+.center{
+    width: 90%;
+    justify-content: center;
+}

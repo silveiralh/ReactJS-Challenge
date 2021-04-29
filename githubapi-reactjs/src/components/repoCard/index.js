@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './repoCard.css';
+// components
 import Tittle from '../tittle';
+// react icons
+import * as Fi from "react-icons/fi";
 function RepoCard( {tittle, repoInfo}) {
     return (
             <div className="cardRepo">
@@ -9,10 +12,10 @@ function RepoCard( {tittle, repoInfo}) {
                     <p className="pb-2"> {repoInfo}</p>
                     <div className="row ">
                     <div className="col">
-                        <p className="text-md-left pb-2">stars 32</p>
+                        <p className="text-md-left pb-2"><Fi.FiStar className="star"/> 32</p>
                     </div>
                     <div className="col">
-                        <p className="text-md text-right pr-4">public</p>
+                        <p className="text-md text-right pr-4"><Fi.FiUnlock className="unlock"/><Fi.FiLock className="lock"/></p>
                     </div>
                 </div>
                     <hr className="bg-secondary"/>

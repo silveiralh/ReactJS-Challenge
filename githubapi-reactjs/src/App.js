@@ -11,9 +11,13 @@ import Following from './view/following';
 function App() {
   
     return (
-        <div>
-           <Following/>
-        </div>
+        <Router>
+           <Route exact path="/" component={Login}></Route>
+           <Route exact path="/home" component={Home}></Route>
+           <Route exact path="/repos" component={Repos}></Route>
+           <Route exact path="/followers" component={Followers}></Route>
+           <Route exact path="/following" component={Following}></Route>
+        </Router>
 
     );
 }

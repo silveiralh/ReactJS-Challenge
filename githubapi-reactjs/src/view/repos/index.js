@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './repos.css';
 
-// componentes
+// components
 import Tittle from '../../components/tittle';
 import Navbar from '../../components/navbar';
 import RepoCard from '../../components/repoCard';
-
+// react icons
+import * as Fi from "react-icons/fi";
 
 function Repos() {
     return (
@@ -13,7 +14,12 @@ function Repos() {
         {/* top section */}
             <div className="topBar">
                 <div className="pt-4 pb-4 ">
-                    <p className="text-md text-center font-weight-bold">10 repositórios</p>
+                    <div className="item-left pt-0 ">
+                            <p className="seta pl-0"><Fi.FiArrowLeft/></p>
+                    </div>
+                    <div className=" center">
+                        <p className="text-md text-center font-weight-bold">10 Repositórios</p>
+                    </div>
                 </div>
             </div>
         {/* repos section */}
