@@ -1,0 +1,21 @@
+.topic{
+    width: 10px;
+    height: 42px;
+    background-color: #FFCE00;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.tittle{
+    padding-top: 20px;
+    padding-left: 0px ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.text{
+    padding-left: 20px;
+}

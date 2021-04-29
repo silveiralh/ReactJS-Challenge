@@ -1,0 +1,35 @@
+.button{
+    margin-top: 20px;
+    width: 100%;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #FFCE00;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-width: 0px;
+    border-color: #0000001D;
+    transition: background-color 0.5s ease-out;
+}
+
+.button:hover{
+    background-color: #fc9300;
+    transition-duration: 0.5s;
+    border-width: 1px;
+    border-color: #0000001D;
+}
+
+.icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 45px;
+    width: 45px;
+}
